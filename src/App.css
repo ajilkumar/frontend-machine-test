@@ -1,0 +1,53 @@
+/* Font imports can go here if using CDN, otherwise reliant on system fonts or npm packages */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --bs-primary: #1090CB; /* Main Blue */
+  --bs-secondary: #6c757d;
+  --bs-body-font-family: 'Poppins', sans-serif;
+  --primary-color: #1090CB;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.text-primary {
+  color: #1090CB !important;
+}
+
+.btn-primary {
+  background-color: #1090CB;
+  border-color: #1090CB;
+}
+
+.btn-primary:hover {
+  background-color: #0d7db3;
+  border-color: #0d7db3;
+}
+
+.btn-outline-primary {
+  color: #1090CB;
+  border-color: #1090CB;
+}
+
+.btn-outline-primary:hover {
+  background-color: #1090CB;
+  color: #fff;
+}
+
+/* Feature Icons */
+.feature-icon-wrapper {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.bg-light-blue {
+    background-color: #E6F2FA;
+}
